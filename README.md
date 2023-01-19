@@ -21,3 +21,5 @@ This week you will be graded on:
 - Completing *most* of the lesson content in the [intro-basics](https://github.com/Data-Sci-Intro-2023/Week-1-Intro/blob/main/lessons/intro-basics.md) and [intro-spatial](https://github.com/Data-Sci-Intro-2023/Week-1-Intro/blob/main/lessons/intro-spatial.md) lessons. (Again, try to complete all the exercises, but they will not be graded).
 
 **To complete this week's assignment go to the [Issues](https://github.com/Data-Sci-Intro-2023/Week-1-Intro/issues/1) for this repository and add the link to the repo you made on your personal GitHub account.**
+
+**Due: End of the day Wed 1/25**
