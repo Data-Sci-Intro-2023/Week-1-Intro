@@ -577,7 +577,22 @@ ggplot(penguins) +
 
 1.  Make a barplot showing the average flipper length for each species.
 
+```{r}
+penguins %>% 
+  group_by(species) %>% 
+  summarise(mean_flipper_length = mean(flipper_length_mm, na.rm = TRUE)) %>% 
+  ggplot(aes(x = species, y = mean_flipper_length))+
+  geom_bar(stat = "identity")
+```
+
 2.  Make a scatter plot of bill length compared to bill depth but only for observations on the Dream island.
+
+```{r}
+penguins %>%
+  filter(island == "Dream") %>%
+  ggplot() +
+  geom_point(mapping = aes(x = bill_length_mm, y = bill_depth_mm))
+```
 
 ## 8. Read and Write Data
 
